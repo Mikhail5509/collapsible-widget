@@ -9,7 +9,7 @@ body {
   background-color: #f8f9fa;
 }
 
-.collapsble {
+.collapsible {
   width: 300px;
   border: 1px solid #e1e4e8;
   border-radius: 5px;
@@ -17,7 +17,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.collapsibe-header {
+.collapsible-header {
   width: 100%;
   padding: 10px 15px;
   text-align: left;
@@ -44,7 +44,7 @@ body {
   color: #6c757d;
   text-align: right;
   opacity: 0;
-  transition: opacity 0.3s easy;
+  transition: opacity 0.3s ease;
 }
 
 .collapsible-content.open {

@@ -9,13 +9,7 @@ class Collapsible {
 
   init() {
     this.header.addEventListener('click', () => {
-      const isOpen = this.content.classList.contains('open');
-
-      if (isOpen) {
-        this.content.classList.remove('open');
-      } else {
-        this.content.classList.add('open');
-      }
+      this.content.classList.toggle('open');
     });
   }
 }
